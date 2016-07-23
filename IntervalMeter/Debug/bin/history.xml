@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=IntervalMeter.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\IntervalMeter -TC:\CooCox\CoIDE\configuration\ProgramData\IntervalMeter/arm-gcc-link.ld -g">
+      <target file="IntervalMeter.elf" lastModified="15618fbd1e3">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="15618fbcbb3"/>
+         <source file="..\obj\startup_stm32f10x_md_vl.o" lastModified="15618fbcc04"/>
+         <source file="..\obj\wh160x_data_exchange.o" lastModified="15618fbcc73"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="15618fbccdc"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="15618fbcd6b"/>
+         <source file="..\obj\stm32f10x_dac.o" lastModified="15618fbcde4"/>
+         <source file="..\obj\main.o" lastModified="15618fbce60"/>
+         <source file="..\obj\wh160x_buffer.o" lastModified="15618fbcece"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="15618fbcf5d"/>
+         <source file="..\obj\wh160x_driver.o" lastModified="15618fbcfdc"/>
+      </target>
+   </processor>
+</history>
